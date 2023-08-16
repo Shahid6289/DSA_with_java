@@ -8,7 +8,6 @@ public class HeapImplementation {
         heap[i] = heap[j];
         heap[j] = temp;
     }
-
     public static void insert(int key) {
         n = n + 1;
         heap[n - 1] = key;
@@ -42,7 +41,6 @@ public class HeapImplementation {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         insert(50);
         insert(30);
